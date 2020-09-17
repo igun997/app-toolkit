@@ -1,0 +1,17 @@
+{
+    "name": "igun997/auto_schendule",
+    "description": "Auto Schendule for All Purphose like Academic, Employee Shift",
+    "type": "library",
+    "require": {
+        "igun997/utility": "^0.0.3",
+        "nette/robot-loader": "^3.3",
+        "rakit/validation": "^1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Indra Gunanda",
+            "email": "indra.gunanda@gmail.com"
+        }
+    ]
+}
