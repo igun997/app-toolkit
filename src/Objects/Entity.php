@@ -1,6 +1,6 @@
 <?php
 
-namespace igun997\Objects;
+namespace Igun997\Toolkit\Objects;
 /***
  * Class Entity
  * @package igun997\Objects
