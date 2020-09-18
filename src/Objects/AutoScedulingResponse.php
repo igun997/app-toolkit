@@ -1,5 +1,5 @@
 <?php
-
+namespace Igun997\Toolkit\Objects;
 class AutoScedulingResponse {
     public array $response;
     public string $date;

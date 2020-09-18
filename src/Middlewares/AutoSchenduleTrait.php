@@ -1,5 +1,5 @@
 <?php
-namespace igun997\Middlewares;
+namespace Igun997\Toolkit\Middlewares;
 /***
  * Trait AutoSchenduleTrait
  * @package igun997\Middlewares

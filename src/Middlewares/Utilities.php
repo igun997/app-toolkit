@@ -1,6 +1,6 @@
 <?php
 
-namespace igun997\Middlewares;
+namespace Igun997\Toolkit\Middlewares;
 
 use Rakit\Validation\Validator;
 
