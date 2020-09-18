@@ -17,7 +17,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Igun997\\Toolkit\\": "src/"
+            "Igun997\\Toolkit\\Contract\\": "src/Contracts",
+            "Igun997\\Toolkit\\Modules\\": "src/Modules",
+            "Igun997\\Toolkit\\Middlewares\\": "src/Middlewares",
+            "Igun997\\Toolkit\\Objects\\": "src/Objects",
+            "Igun997\\Toolkit\\Cores\\": "src/Cores"
         }
     }
 }
