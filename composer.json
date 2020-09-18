@@ -1,6 +1,6 @@
 {
-    "name": "igun997/auto_schendule",
-    "description": "Auto Schendule for All Purphose like Academic, Employee Shift",
+    "name": "igun997/app-toolkit",
+    "description": "App Toolkit for Your Projects",
     "type": "library",
     "require": {
         "igun997/utility": "^0.0.3",
