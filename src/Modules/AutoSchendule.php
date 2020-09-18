@@ -1,9 +1,11 @@
 <?php
-namespace igun997\Modules;
+namespace Igun997\Toolkit\Modules;
 
-use igun997\Contract\AutoScenduleContract;
-use igun997\Cores\CollectionProcessing;
-use igun997\Middlewares\AutoSchenduleTrait;
+
+
+use Igun997\Toolkit\Contract\AutoScenduleContract;
+use Igun997\Toolkit\Cores\CollectionProcessing;
+use Igun997\Toolkit\Middlewares\AutoSchenduleTrait;
 
 class AutoSchendule extends CollectionProcessing implements AutoScenduleContract {
     use AutoSchenduleTrait;

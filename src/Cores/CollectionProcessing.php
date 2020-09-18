@@ -1,12 +1,13 @@
 <?php
-namespace igun997\Cores;
+namespace Igun997\Toolkit\Cores;
 
-use AutoScedulingResponse;
+
+
 use Carbon\Carbon;
 use Carbon\CarbonPeriod;
-use igun997\Middlewares\FlexibleTrait;
-use igun997\Middlewares\Utilities;
-use igun997\Objects\Entity;
+use Igun997\Toolkit\Middlewares\FlexibleTrait;
+use Igun997\Toolkit\Middlewares\Utilities;
+use Igun997\Toolkit\Objects\AutoScedulingResponse;
 
 class CollectionProcessing {
     use Utilities;
