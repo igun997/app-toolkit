@@ -5,7 +5,8 @@
     "require": {
         "igun997/utility": "^0.0.3",
         "nette/robot-loader": "^3.3",
-        "rakit/validation": "^1.4"
+        "rakit/validation": "^1.4",
+        "nesbot/carbon": "^2.40"
     },
     "license": "MIT",
     "authors": [
@@ -13,5 +14,10 @@
             "name": "Indra Gunanda",
             "email": "indra.gunanda@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "igun997\\": "src/"
+        }
+    }
 }

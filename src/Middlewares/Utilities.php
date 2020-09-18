@@ -65,4 +65,5 @@ trait Utilities {
         }
         return $this->_success_data;
     }
+
 }

@@ -14,9 +14,9 @@ class AutoSchendule extends CollectionProcessing implements AutoScenduleContract
        $this->rawData = $data;
     }
 
-    public function run()
+    public function run(bool $is_random = FALSE)
     {
-        $finalize_data = $this->Scheduler($this->rawData);
+        $finalize_data = $this->Scheduler($this->rawData,$is_random);
         $this->finalizeData[] = $finalize_data;
         return $this;
     }
@@ -25,4 +25,5 @@ class AutoSchendule extends CollectionProcessing implements AutoScenduleContract
     {
        return $this->finalizeData;
     }
+
 }
