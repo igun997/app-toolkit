@@ -1,5 +1,5 @@
 {
-    "name": "igun997/app-toolkit",
+    "name": "igun997/toolkit",
     "description": "App Toolkit for Your Projects",
     "type": "library",
     "require": {
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "igun997\\": "src/"
+            "Igun997\\Toolkit": "src/"
         }
     }
 }
