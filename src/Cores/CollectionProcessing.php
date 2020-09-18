@@ -8,6 +8,7 @@ use Carbon\CarbonPeriod;
 use Igun997\Toolkit\Middlewares\FlexibleTrait;
 use Igun997\Toolkit\Middlewares\Utilities;
 use Igun997\Toolkit\Objects\AutoScedulingResponse;
+use Igun997\Toolkit\Objects\EntityScheduling as Entity;
 
 class CollectionProcessing {
     use Utilities;

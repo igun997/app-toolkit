@@ -5,7 +5,7 @@ namespace Igun997\Toolkit\Objects;
  * Class Entity
  * @package igun997\Objects
  */
-class Entity {
+class EntityScheduling {
     public $id;
     public String $name;
     public int $division_id;
